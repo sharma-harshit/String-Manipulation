@@ -24,6 +24,7 @@ int main()
 				length++;
 			}
 		}
+		word.push_back(s.substr(start,length));
         for(int i = 0 ; i < word.size(); i++)
         {
             cout<<word[i]<<endl;
